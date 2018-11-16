@@ -1,0 +1,38 @@
+
+<ion-header>
+  
+  <ion-navbar>
+   
+    <ion-title>
+      Softdeveiei
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding text-center>
+  <img src="../../assets/imgs/total.jpg" width ="250px">
+  <p>
+    Your Welcome.
+  </p>
+  <ion-list>
+
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" [(ngModel)]="id"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" [(ngModel)]="pass"></ion-input>
+      </ion-item>
+    
+    </ion-list>
+    <button ion-button block (click)="next()">
+    Login 
+    </button>
+    <ion-label class="color-red">ไม่ได้ลืมรหัสผ่าน</ion-label>
+
+    
+      
+</ion-content>
